@@ -1,14 +1,15 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
 
 *{padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .app{
-  background-color:#DFD0B8 ;
+  background-color:#153448 ;
   min-height: 100vh;
   display: grid;
 }
