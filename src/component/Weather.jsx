@@ -70,7 +70,7 @@ const Weather = () => {
   };
 
   useEffect(() => {
-    search("iran");
+    search("tehran");
     AOS.init();
   }, []);
 
