@@ -8,6 +8,7 @@ import rain_icon from "../assets/rain.png";
 import snow_icom from "../assets/snow.png";
 import humidity_icon from "../assets/humidity.png";
 import wind_icon from "../assets/wind.png";
+import logo from "../assets/logo.png";
 import Swal from "sweetalert2";
 import alert_notif from "../assets/alert.wav";
 import AOS from "aos";
@@ -88,26 +89,31 @@ const Weather = () => {
     inputRef.current.value = "";
   };
   return (
-    <div className="weather" >
+    <>
+   
+    <div className="weather">
       <div className="search-bar">
         <input ref={inputRef} type="text" placeholder="Search for a city" />
         <img src={search_icon} alt="" onClick={clickHandler} />
       </div>
       {weatherData ? (
         <>
+        <div className="weather-body">
+
           <img
             src={weatherData.icon}
             alt=""
             className="weather-icon"
             div
             data-aos="fade-down"
-          />
+            />
           <p className="temperature" data-aos="flip-right">
             {weatherData.temperature} °c{" "}
           </p>
-          <p className="location"  data-aos="fade-down">
+          <p className="location" data-aos="fade-down">
             {weatherData.location}
           </p>
+            </div>
 
           <div className="weather-data " div data-aos="fade-down">
             <div className="col">
@@ -126,11 +132,15 @@ const Weather = () => {
               </div>
             </div>
           </div>
+            <div className="logo">
+      <img src={logo} alt="" />
+    </div>
         </>
       ) : (
         <></>
       )}
     </div>
+      </>
   );
 };
 

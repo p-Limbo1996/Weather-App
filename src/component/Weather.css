@@ -3,10 +3,24 @@
   padding: 40px;
   background: linear-gradient(65deg, #3c5b6f, #91bedc);
   border-radius: 10px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.logo {
+  position: fixed;
+  top: 0;
+  background-color: #3c5b6f;
+  width: 100%;
+}
+
+.logo img {
+  display: block;
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+  background-blend-mode: overlay;
 }
 .search-bar {
   display: flex;
@@ -35,6 +49,12 @@
   outline: 0;
   border-radius: 40px;
   background: #ffffff;
+}
+
+.weather-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .weather-icon {
   height: 150px;
@@ -76,38 +96,38 @@
   margin-top: 5px;
 }
 
-.swal2-container{
+.swal2-container {
   background: #153448;
   border-radius: 15px 15px 0 0;
-  
 }
-.swal2-title{
+.swal2-title {
   background: #205b83;
   border-radius: 15px 15px 0 0;
   width: 100%;
   font-size: 23px;
   padding: 10px;
 }
-.swal2-popup, .swal2-modal ,.swal2-show{
+.swal2-popup,
+.swal2-modal,
+.swal2-show {
   background: linear-gradient(65deg, #3c5b6f, #91bedc);
   color: #ffffff;
   font-weight: 500;
   font-size: 18px;
-  font-family: "Poppins", sans-serif!important;
-  border-radius: 15px ;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 15px;
   max-width: 400px;
-  border-top:10px solid #153448 ;
-
+  border-top: 10px solid #153448;
 }
-.swal2-confirm,.swal2-styled{
+.swal2-confirm,
+.swal2-styled {
   background: #153448;
   color: #fff;
   font-weight: 500;
-  border-radius: 15px ;
+  border-radius: 15px;
   margin: -5px;
   font-size: 15px;
 }
-
 
 @media (max-width: 500px) {
   /* Mobile view */
@@ -150,6 +170,54 @@
   }
   .weather-data > .col span {
     font-size: 14px;
+  }
+  .weather-data > .col img {
+    width: 28px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 350px) {
+  /* Mobile view */
+  .weather {
+    padding: 10px;
+  }
+  .search-bar {
+    padding: 5px;
+    gap: 3px;
+  }
+  .search-bar > input {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .search-bar > img {
+    padding: 10px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .weather-icon {
+    height: 120px;
+    margin: 20px;
+  }
+  .temperature {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .location {
+    font-size: 20px;
+  }
+  .weather-data {
+    width: 100%;
+    margin: 20px 0;
+    gap: 10px;
+    padding: 0 5px;
+  }
+  .weather-data > .col {
+    font-size: 15px;
+  }
+  .weather-data > .col span {
+    font-size: 12px;
   }
   .weather-data > .col img {
     width: 28px;
