@@ -1,23 +1,23 @@
-# Weather App 🌤️
+# 🌦️ Weather App
 
-This is a weather application built with React that allows users to search for weather data by city name. The app fetches data from the OpenWeatherMap API and displays current weather conditions such as temperature, humidity, and wind speed.
+This is a weather application built with **React** that allows users to search for weather data by city name. The app fetches data from the OpenWeatherMap API and displays current weather conditions such as temperature, humidity, and wind speed.
 
-## Live Demo
+## 🌐 Live Demo
 
-You can view the live demo of the application here: [Weather App](https://p-limbo1996.github.io/Weather-App/)
+You can view the live demo of the application here: [**Weather App**](https://p-limbo1996.github.io/Weather-App/)
 
-## Features
+## ✨ Features
 
-- **Real-time Weather Data:** Get up-to-date weather information for any city.
-- **Dynamic Icons:** Weather icons change based on the current weather condition.
-- **Responsive Design:** The application is fully responsive, working smoothly on both mobile and desktop devices.
-- **Smooth Animations:** Animations powered by `AOS (Animate On Scroll)` for a delightful user experience.
+- 🌍 **Real-time Weather Data:** Get up-to-date weather information for any city.
+- 🌤️ **Dynamic Icons:** Weather icons change based on the current weather condition.
+- 📱 **Responsive Design:** The application is fully responsive, working smoothly on both mobile and desktop devices.
+- 💫 **Smooth Animations:** Animations powered by **AOS (Animate On Scroll)** for a delightful user experience.
 
-## Screenshots
+## 🖼️ Screenshots
 
 ![Weather App Screenshot](src/assets/p-limbo1996.github.io_Weather-App_.png)
 
-## Installation & Setup
+## 🛠️ Installation & Setup
 
 To run this project locally, follow these steps:
 
@@ -53,15 +53,15 @@ To run this project locally, follow these steps:
 
     The app will be available at `http://localhost:5173/`.
 
-## Usage
+## 🚀 Usage
 
 - Open the app.
-- Enter a city name in the search bar and click the search icon.
+- Enter a city name in the search bar and click the search icon 🔍.
 - View the current weather details for the entered city.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- **React**: JavaScript library for building user interfaces.
-- **CSS**: For styling the components.
-- **AOS (Animate On Scroll)**: Library for adding animations on scroll.
-- **SweetAlert2**: For beautiful alerts and prompts.
+- ⚛️ **React**: JavaScript library for building user interfaces.
+- 🎨 **CSS**: For styling the components.
+- 🌟 **AOS (Animate On Scroll)**: Library for adding animations on scroll.
+- 💬 **SweetAlert2**: For beautiful alerts and prompts.
